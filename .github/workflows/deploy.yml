@@ -2,7 +2,7 @@ name: Deployment Exercise
 on: [push]
 jobs:
   Deploy:
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
     steps:
       - name: Get Codes
         uses: actions/checkout@v3
